@@ -6,7 +6,7 @@ Once the submission is prepared, you can submit it to the [ImageNet evaluation s
 
 ## Usage
 
-You may open the notebook [example.ipynb](example.ipynb) to prepare a submission by modifying it. The notebook is self-contained and should be easy to follow.
+You may open the notebook [example.ipynb](example.ipynb) and modify it to prepare a submission. The notebook is self-contained and should be easy to follow.
 You can also directly use the code below
 
 ```python
