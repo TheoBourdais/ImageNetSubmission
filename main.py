@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import DataLoader
 import timm
 import os
-from utils import TestDataset, get_test_submission
+from src.utils import TestDataset, get_test_submission
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

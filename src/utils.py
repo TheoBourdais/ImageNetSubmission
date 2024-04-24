@@ -26,7 +26,9 @@ class TestDataset(Dataset):
         return len(self.image_paths)
 
 
-idx_to_ilsvrc_id = pd.read_csv("idx_to_ILSVRC_ID.csv")
+idx_to_ilsvrc_id = pd.read_csv(
+    "https://github.com/TheoBourdais/ImageNetSubmission/raw/main/src/idx_to_ILSVRC_ID.csv"
+)
 idx_to_ilsvrc_id = {
     idx: ilsvrc_id
     for idx, ilsvrc_id in zip(idx_to_ilsvrc_id["idx"], idx_to_ilsvrc_id["ILSVRC_ID"])
